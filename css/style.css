@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: rgb(247,248,250)
+}
+
+header {
+  background-color: rgb(255,254,254);
+}
 /* logo */
 .lo {
   background-color: rgb(255,254,254);
@@ -22,6 +29,34 @@
 }
 
 /* description */
+
+ 
+.container {
+  max-width: 790px;
+  margin: 40px auto;
+  background-color:#fffefe ;
+}
+
+
+.add {
+  padding: 6px;
+  border-color: rgb(77,170,243);
+  background-color: rgb(77,170,243);
+  border-width: 1px;
+  border-radius: 7px;
+  font-size: 10px;
+  margin:28px
+}
+
+.section {
+  padding: 6px;
+  border-color: rgb(208,209,210);
+  background-color: ;
+  border-width: 1px;
+  border-radius: 7px;
+  font-size: 10px;
+  margin-left: -25px;
+}
 
 
 
