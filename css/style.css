@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -11,6 +12,7 @@ body {
 header {
   background-color: rgb(255,254,254);
 }
+
 /* logo */
 .lo {
   background-color: rgb(255,254,254);
@@ -22,7 +24,6 @@ header {
 
 .name {
   font-size: 40px;
-  font-family: Arial, Helvetica, sans-serif;
   display: inline-block;
   vertical-align: middle;
   line-height: 47px;;
@@ -30,14 +31,13 @@ header {
 
 /* description */
 
- 
 .container {
   max-width: 790px;
   margin: 40px auto;
   background-color:#fffefe ;
 }
 
-
+/* button */
 .add {
   padding: 6px;
   border-color: rgb(77,170,243);
@@ -51,12 +51,110 @@ header {
 .section {
   padding: 6px;
   border-color: rgb(208,209,210);
-  background-color: ;
+  background-color: rgb(255,254,255);
   border-width: 1px;
   border-radius: 7px;
   font-size: 10px;
   margin-left: -25px;
 }
 
+.new {
+  list-style-type: none;
+  margin: 28px;
+  margin-top: 10px;
+}
 
+.check {
+  border: solid;
+  border-color: green;
+  border-radius: 50%;
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin-top: 5px;
+}
 
+.Newsletter {
+  line-height: 22px;;
+ }
+
+.cross {
+  border: solid;
+  border-color: red;
+  border-radius: 50%;
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin-top: 10px;
+}
+
+.edi {
+    padding: 6px;
+    border-color: rgb(77,170,243);
+    background-color: rgb(77,170,243);
+    border-width: 1px;
+    border-radius: 12px;
+    font-size: 10px;
+    margin:28px;
+    margin-left: 3px;
+  }
+
+.goa {
+    padding: 6px;
+    border-color: rgb(154,117,225);
+    background-color: rgb(154,117,225);
+    border-width: 1px;
+    border-radius: 12px;
+    font-size: 10px;
+    margin:28px;
+    margin-left: 3px;
+    
+  }
+
+  .recru {
+    padding: 6px;
+    border-color: rgb(98,197,170);
+    background-color: rgb(98,197,170);
+    border-width: 1px;
+    border-radius: 12px;
+    font-size: 10px;
+    margin:28px;
+    margin-left: 3px;
+  }
+
+  .mob {
+    padding: 6px;
+    border-color: rgb(236,164,73);
+    background-color: rgb(236,164,73);
+    border-width: 1px;
+    border-radius: 12px;
+    font-size: 10px;
+    margin:28px;
+    margin-left: 3px;
+  }
+
+  .web {
+    padding: 6px;
+    border-color: rgb(209,102,161);
+    background-color: rgb(209,102,161);
+    border-width: 1px;
+    border-radius: 12px;
+    font-size: 10px;
+    margin:28px;
+    margin-left: 3px;
+  }
+
+  .sale {
+    padding: 6px;
+    border-color: rgb(177,205,33);
+    background-color: rgb(177,205,33);
+    border-width: 1px;
+    border-radius: 12px;
+    font-size: 10px;
+    margin:28px;
+    margin-left: 3px;
+  }
